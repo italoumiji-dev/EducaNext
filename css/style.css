@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+* a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+.img-logo{
+    width: 150px;
+    height: 50px;
+}
+.cabecalho{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.hud{
+    margin-top: 40px;
+    display:flex ;
+}
+.logo{
+    margin: 20px;
+}
+.hud-click{
+    padding: 20px;
+    text-decoration: none;
+}
+.hud-click1{
+    text-decoration: none;
+}
+.compra1{
+    display: flex;
+    margin: 30px 40px;
+    background-color: #FF8929;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.compra a{
+    color: black;
+}
+.compra1:hover{
+    background-color:#192B50;
+}
+.compra1:hover a{
+    color: white;
+}
+.img-principal{
+    width: 100%;
+    height: 500px;
+}
+.cor-titulo{
+    color: #192B50;
+}
+.sobre{
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.secao-esdrinhas{
+    margin-top: 40px;
+    gap: 500px;
+    display: flex;
+    border-radius: 30px;
+}
+.linha-imagem{
+    margin-top: 50px;
+}
+.img2{
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.fundo-img{
+    padding: 20px 20px 0px 0px;
+    background-color: #192B50;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.mais{
+    margin-top: 30px;
+    display: flex;
+    background-color: #FF8929;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.mais:hover{
+    background-color: #192B50;
+}
+.mais:hover a{
+    color: white;
+    text-decoration: none;
+}
+/* STYLE SECAO 2*/
+
+.secao2{
+    margin-top: 50px;
+    background-color: #192B50;
+    width: 100%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.corzinha{
+    color: #FF8929;
+}
+.icones{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.img-borda{
+    border-radius: 20px;
+}
+.conteudos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.aplicacao-conteudo{
+    margin-top: 50px;
+    text-align: center;
+}
+.caixa-saiba{
+    margin-top: 40px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #FF8929;
+    width: 300px;
+    height: 60px;
+
+}
+.caixa-saiba:hover{
+    background-color: #192B50;
+}
+.caixa-saiba:hover a{
+    color: white;
+}
+.saiba{
+    font-size: 40px;
+    text-decoration: none;
+}
+/* STYLE SECAO 3*/
+.area-depoimento{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.depoimento{
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    color: #4d4b4b;
+    width: 400px;
+    height: 60px;
+}
+.caixa-texto{
+    height: 600px;
+}
+.caixa-depoimento{
+    margin-top: 20px;
+    width: 400px;
+    text-align: center;
+}
+.flex-depoimento{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-homi{
+    width: 400px;
+    height: 320px;
+    border-radius: 50px;
+}
+.img-homi-fundo{
+    padding: 30px 0px 0px 30px;
+    background-color: #b4b2b2;
+    width: 400px;
+    height: 320px;
+    border-radius: 50px;
+}
+.planos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+    background-color: #FF8929;
+    width: 100%;
+    height: 700px;
+}
+/* PLANO 1*/
+.valores-planos1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.plano1{ 
+    padding: 50px;
+    color: white;
+    background-color: #4d4b4b;
+    width: 300px;
+    height: 400px;
+
+}
+.tamanho-plano1{
+    width: 80px;
+}
+.preco1{
+    justify-content: center;
+    display: flex;
+    color: #4d4b4b;
+    align-items: center;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+.preco1:hover{
+    background-color: #192B50;
+}
+.preco1:hover a{
+    color: white;
+}
+
+/* PLANO 2*/
+.valores-planos2{
+    margin-top: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.melhor-preco{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    background-color: #192B50;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+}
+.plano2{ 
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+
+}
+.tamanho-plano2{
+    width: 80px;
+}
+.preco2{
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    background-color:#192B50;
+    height: 40px;
+    border-radius: 10px;
+}
+.preco2:hover{
+    background-color:#4d4b4b;
+}
+.preco2:hover a{
+    color: white;
+}
+/*PLANO 3*/
+.valores-planos3{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.plano3{ 
+    padding: 50px;
+    color:white;
+    background-color:#192B50;
+    width: 300px;
+    height: 400px;
+
+}
+.tamanho-plano3{
+    width: 80px;
+}
+.preco3{
+    justify-content: center;
+    display: flex;
+    color: #000000;
+    align-items: center;
+    background-color:#ffffff;
+    height: 40px;
+    border-radius: 10px;
+}
+.preco3:hover{
+    background-color:#4d4b4b;
+}
+.preco3:hover a{
+    color: white;
+}
+.promo{
+    display: flex;
+    align-items: center;
+    margin-top: 620px;
+    text-align: center;
+    background-color: #192B50;
+    color: white;
+    width: 300px;
+    height: 150px;
+    border-radius: 90px;
+    margin-left: 1000px; 
+    position: absolute;
+}
+.faq {
+    padding: 120px 20% 100px;
+    text-align: center;
+}
+
+.faq h2 {
+    margin-bottom: 35px;
+    font-size: 26px;
+}
+
+.faq details {
+    background: #e5e5e5;
+    margin-bottom: 12px;
+    border-radius: 7px;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.faq summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.faq details p {
+    padding-top: 12px;
+    font-size: 13px;
+}
+/* RODAPÉ*/
+.rodape{
+    background-color: #192B50;
+    width: 100%;
+    height: 400px;
+}
+.img-rodape{
+    width: 350px;
+    height: 100px;
+}
+.rodape-back{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.letrasrodape{
+    margin-top: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+
+}
+.div-img{
+    margin-top: 150px;
+}
+.bordinha{
+    display: flex;
+    justify-content: center;
+}
+.borda-rodape{
+    margin-top: 50px;
+    border: 1px solid rgb(116, 114, 114);
+    width: 2000px;
+}
+.finalizacao{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
