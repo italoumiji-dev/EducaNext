@@ -66,9 +66,13 @@
 }
 .secao-esdrinhas{
     margin-top: 40px;
-    gap: 500px;
+    gap: 200px;
     display: flex;
     border-radius: 30px;
+}
+.tamanhoimg{
+    width: 500px;
+    height: 400px;
 }
 .linha-imagem{
     margin-top: 50px;
